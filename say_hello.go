@@ -1,5 +1,5 @@
 package go_say_hello
 
-func SayHello() string {
-	return "hello versi 1.5 karena versi 2 error"
+func SayHello(name string) string {
+	return "hello " + name + " ini major update ke versi 2"
 }
